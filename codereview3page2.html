@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Codereview3</title>
+	<link rel="stylesheet" type="text/css" href="codereview3style.css">
+</head>
+<body class="body2">
+<h1 class="heading"><span class="bold">Insurance</span> Company
+	</h1>
+<div class="wrapper2">
+<div class="form1">	
+<form>
+	<br>
+    <p class="pform">
+        <label for="b">Your name: </label>
+        <input class="a" id="a" type="text">
+    </p>
+    <br>
+    <p class="pform">
+        <label for="b">Age: </label>
+        <input class="a" id="b" type="text">
+    </p>
+    <br>
+     <p class="pform">
+        <label for="b">Country: </label>
+         <select class="a" id="c" name="country">
+     		<option value="austria">Austria</option>
+      		<option value="italy">Italy</option>
+      		<option value="germany">Germany</option>
+    	</select>
+    </p>
+    <br>
+     <p class="pform">
+        <label for="b">Horsepower: </label>
+        <input class="a" id="d" type="text">
+    </p>
+    <br>
+    <p class="pform">
+    	<label for="b"> </label>
+		<button type="button" class="btn" onclick="calculateInsurance()">Calculate</button>
+	</p>
+
+</form>
+</div>
+
+
+
+</div>
+
+<p id="bottomheading"></p>
+
+		
+<script>
+/*
+	function calculateInsurance() {
+
+		var name = "John Doe";
+		var age = 20;
+		var country = "Austria";
+		var horsepower = 150;
+		var insurance = horsepower * 100 / age + 150;
+
+		document.getElementById("bottomheading").innerHTML = insurance
+}
+*/
+
+function calculateInsurance() {
+
+		var name = document.getElementById("a").value;
+		var age = document.getElementById("b").value;
+		var country = "";
+		var horsepower = document.getElementById("d").value;
+
+		var insurance = horsepower * 100 / age + 150;
+		var roundedinsurance =  Math.round(insurance);
+
+		document.getElementById("bottomheading").innerHTML = name + " your insurance is going to cost " + roundedinsurance + " Euro."
+}
+
+
+
+</script>		
+		
+</body>
+</html>

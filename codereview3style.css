@@ -1,0 +1,126 @@
+.btn {
+  background: #f5f5f5;
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #c2c2c2);
+  background-image: -moz-linear-gradient(top, #f5f5f5, #c2c2c2);
+  background-image: -ms-linear-gradient(top, #f5f5f5, #c2c2c2);
+  background-image: -o-linear-gradient(top, #f5f5f5, #c2c2c2);
+  background-image: linear-gradient(to bottom, #f5f5f5, #c2c2c2);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #0b7175;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  border: solid #0b7175 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #8b9194;
+  text-decoration: none;
+}
+
+#bottomheading {
+  color: darkgrey;
+  text-align: center;
+  font-size: 30px;
+}
+
+form  { 
+  margin: 0 auto;
+  width: 250px;
+  display: table;   
+  color: white;
+  font-size: 20px;   
+}
+.pform     { 
+  display: table-row;  
+}
+label { 
+  display: table-cell; 
+}
+input { 
+  display: table-cell; 
+}
+
+.a {
+border-radius: 8px; 
+-moz-border-radius: 8px; 
+-webkit-border-radius: 8px; 
+border: 2px solid #A8A89E;
+font-size: 30px;
+}
+
+.bottom {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 100;
+}
+
+figure {
+    margin: 20px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+    color: white;
+}
+
+body {
+  background: lightgray;
+  font-family: Verdana;
+}
+
+.body2 {
+  background: white;
+  font-family: Verdana;
+}
+.heading {
+  color: #e78244;
+  text-align: center;
+}
+
+.heading2 {
+  color: #314b59;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+}
+#first {
+  float: left;
+}
+
+#third {
+  float: right;
+}
+
+.wrapper {
+  background: #3aa38e;
+}
+
+.wrapper2 {
+  background: #406b80;
+}
+.main {
+  min-height: 400px;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.item {
+  flex: 0 0 auto;
+  margin: 5px;
